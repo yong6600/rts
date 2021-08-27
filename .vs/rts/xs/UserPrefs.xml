@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{920CD4F8-3DD7-A479-4DDB-8D470E40103F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/95.RTS/1.Scripts/GameData/SoundData.cs">
+    <Files>
+      <File FileName="Assets/95.RTS/1.Scripts/GameData/SoundClip.cs" Line="8" Column="16" />
+      <File FileName="Assets/95.RTS/1.Scripts/Components/BGMSondPlayer.cs" Line="23" Column="64" />
+      <File FileName="Assets/95.RTS/1.Scripts/Components/Editor/BGMSoundplayerInspector.cs" />
+      <File FileName="Assets/95.RTS/1.Scripts/Systems/State/ManagerHolder.cs" />
+      <File FileName="Assets/95.RTS/1.Scripts/Systems/State/DataManager.cs" Line="33" Column="32" />
+      <File FileName="Assets/95.RTS/1.Scripts/Systems/State/SingletonMonoBehaviour.cs" />
+      <File FileName="Assets/95.RTS/1.Scripts/Systems/State/InputManager.cs" />
+      <File FileName="Assets/95.RTS/1.Scripts/GameData/SoundData.cs" Line="179" Column="37" />
+      <File FileName="Assets/95.RTS/1.Scripts/GameData/BaseData.cs" Line="5" Column="41" />
+      <File FileName="Assets/95.RTS/1.Scripts/GameData/SoundList.cs" />
+      <File FileName="Assets/95.RTS/9.ResourcesData/Resources/Data/soundData.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rts" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="95.RTS" expanded="True">
+                <Node name="1.Scripts" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Editor" expanded="True" />
+                  </Node>
+                  <Node name="Etc" expanded="True" />
+                  <Node name="GameData" expanded="True">
+                    <Node name="SoundData.cs" selected="True" />
+                  </Node>
+                  <Node name="Systems" expanded="True">
+                    <Node name="State" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="9.ResourcesData" expanded="True">
+                  <Node name="Resources" expanded="True">
+                    <Node name="Data" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="UI Assets" expanded="True">
+                <Node name="TK2DROOT" expanded="True">
+                  <Node name="tk2d_demo" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>moveAmount</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c5bfb8e9-df98-4b2b-94fe-9403faa3994b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/hyong/Documents/rts/Assets/95.RTS/1.Scripts/Components/BGMSondPlayer.cs" relfile="Assets/95.RTS/1.Scripts/Components/BGMSondPlayer.cs" line="50" column="1" />
+      <Breakpoint file="/Users/hyong/Documents/rts/Assets/95.RTS/1.Scripts/GameData/SoundData.cs" relfile="Assets/95.RTS/1.Scripts/GameData/SoundData.cs" line="158" column="1" />
+      <Breakpoint file="/Users/hyong/Documents/rts/Assets/95.RTS/1.Scripts/GameData/SoundData.cs" relfile="Assets/95.RTS/1.Scripts/GameData/SoundData.cs" line="139" column="1" />
+      <Breakpoint file="/Users/hyong/Documents/rts/Assets/95.RTS/1.Scripts/GameData/SoundData.cs" relfile="Assets/95.RTS/1.Scripts/GameData/SoundData.cs" line="165" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
