@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1295365528161338}
+  m_IsPrefabAsset: 1
+--- !u!1 &1295365528161338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4080267233537328}
+  - component: {fileID: 114861468721390894}
+  m_Layer: 0
+  m_Name: creed_animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4080267233537328
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295365528161338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114861468721390894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295365528161338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecaffc43a5d2b1d47858e3fb687e7271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - name: lv1_attack_e
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 81
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 117
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 123
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 82
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_n
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 79
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 80
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 73
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 70
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_ne
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 71
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 68
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 72
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 67
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_nw
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 71
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 68
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 72
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 67
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_s
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 83
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 84
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 69
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 78
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_se
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 118
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 119
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 120
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 56
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_sw
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 118
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 119
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 120
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 56
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_attack_w
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 81
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 117
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 123
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 82
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_e
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 57
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_n
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 57
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_ne
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 122
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_nw
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 122
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_s
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 116
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_se
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 64
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_sw
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 64
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0
+  - name: lv1_idle_w
+    frames:
+    - spriteCollection: {fileID: 114904909537734538, guid: 7c76658a3fdfd433cae02c9e9843514a,
+        type: 2}
+      spriteId: 57
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+      playSoundClip: 0
+      hasSpawnEffect: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 0

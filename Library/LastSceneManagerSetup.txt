@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/95.RTS/2.Scenes/Starter.unity
+  isLoaded: 1
+  isActive: 1
